@@ -1,6 +1,7 @@
 <?php
-include("../inc/inc_koneksi.php")
+include("../inc/inc_koneksi.php");
 ?>
+
 
 <!DOCTYPE html>
 <html lang="id">
@@ -21,43 +22,7 @@ include("../inc/inc_koneksi.php")
     <!-- Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
 
+    <link rel="stylesheet" href="../style/nav.css" />
 </head>
-
-<body class="container">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <img
-                    src="../img/Logo Jemari.png"
-                    alt="Logo Jemari"
-                    style="height: 50px; width: auto; max-width: 150px" />
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Manajemen Stasiun</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Laporan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Pengguna</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Pengaturan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Keluar</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
 
     <main>

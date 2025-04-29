@@ -8,5 +8,5 @@ $koneksi = mysqli_connect($host, $user, $pass, $db);
 if (!$koneksi) {
     die("Koneksi database gagal : " . mysqli_connect_error());
 } else {
-    echo "koneksi berhasil";
+    #echo "koneksi berhasil";
 }
